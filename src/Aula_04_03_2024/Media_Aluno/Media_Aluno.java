@@ -9,7 +9,7 @@ public class Media_Aluno {
     int media;
 
     public void media() {
-        media = (nota1 + nota2 + nota3) / 2;
+        media = (nota1 + nota2 + nota3) / 3;
     }
 
 }
