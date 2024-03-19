@@ -58,8 +58,8 @@ public class Funcionario {
     }
 
     public void resultados (){
-        System.out.println("Matrícula: " + matricula);
-        System.out.println("Nome: " + nome);
-        System.out.println("Salário bruto: " + salario_bruto);
+        System.out.println("Matrícula: " + getMatricula());
+        System.out.println("Nome: " + getNome());
+        System.out.println("Salário bruto: " + getSalario_bruto());
     }
 }
